@@ -1,0 +1,21 @@
+import numpy as np 
+
+arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+print(arr.shape)
+
+# (row, column) => (2, 4)
+
+arr = np.array([1, 2, 3, 4], ndmin=5)
+
+print(arr)
+print('shape of array:', arr.shape)
+
+# Reshaping arrays ==========>
+
+# Reshape from 1-D to 2-D:- 
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+
+newarr = arr.reshape(4, 3)
+
+print(newarr)
