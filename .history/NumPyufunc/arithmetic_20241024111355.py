@@ -64,22 +64,3 @@ print(newarr)
 
 newarr = np.remainder(arr1, arr2)
 print(newarr)
-
-# Quotient and mod 
-
-# divmod() function 
-
-arr1 = np.array([10, 56, 89, 43, 67])
-arr2 = np.array([3, 7, 8, 9, 2])
-
-newarr = np.divmod(arr1, arr2)
-print(newarr)
-
-# Absolute values 
-
-# absolute() and abs() functions , math.abs() 
-
-arr = np.array([-1, 3, 5, 7, 8, -4])
-
-newarr = np.absolute(arr)
-print(newarr)
