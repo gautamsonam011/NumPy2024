@@ -53,10 +53,3 @@ print(newarr)
 arr = np.array([1, 2, 3, 1, 1, 6, 8])
 x = np.unique(arr)
 print(x)
-
-arr1 = np.array([2, 4, 6, 7, 9, 2, 4, 6])
-arr2 = np.array([4, 6, 8, 2, 1, 6, 8, 3])
-
-newarr = np.union1d(arr1, arr2)
-print(newarr)
-
