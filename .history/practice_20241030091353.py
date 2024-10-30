@@ -64,28 +64,3 @@ from numpy import random
 
 x = random.randint(100)
 print(x)
-
-x = random.rand()
-print(x)
-
-x = random.randint(100, size = (5))
-print(x)
-
-x = random.randint(100, size=(3, 5))
-print(x)
-
-# Floats 
-
-x = random.rand(5)
-print(x)
-
-x = random.rand(3, 4)
-print(x)
-
-# Generate random number from array 
-
-x = random.choice([3, 5, 7, 8, 9])
-print(x)
-
-x = random.choice([4, 6, 8, 3], size=(3, 2))
-print(x)

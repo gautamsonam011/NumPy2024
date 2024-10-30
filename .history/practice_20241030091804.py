@@ -86,6 +86,3 @@ print(x)
 
 x = random.choice([3, 5, 7, 8, 9])
 print(x)
-
-x = random.choice([4, 6, 8, 3], size=(3, 2))
-print(x)
